@@ -16,7 +16,7 @@ public class playerRaycast : MonoBehaviour
             if (hit.collider.gameObject.GetComponent<door>())
             {
                 crosshair.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetKeyDown(KeyCode.P))
                 {
                     hit.collider.gameObject.GetComponent<door>().openClose();
                 }
