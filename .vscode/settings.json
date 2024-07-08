@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Hardening oven.sln"
+    "dotnet.defaultSolution": "Safety oven.sln"
 }
